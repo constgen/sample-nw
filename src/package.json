@@ -1,0 +1,34 @@
+{
+	"name": "nw-app",
+	"main": "system/blank.html",
+	"node-main": "system/index.js",
+	"node-remote": "",
+	"description": "",
+	"version": "0.1.0",
+	"window": {
+		"show": false,
+		"title": "title",
+		"icon": "images/system_icon.png",
+		"toolbar": true,
+		"frame": true,
+		"resizable": true,
+		"fullscreen": false,
+		"kiosk": false,
+		"position": "center",
+		"min_width": 800,
+		"min_height": 600,
+		"width": 1024,
+		"height": 768
+	},
+	"webkit": {
+		"plugin": true,
+		"page-cache": false
+	},
+	"nodejs": true,
+	"js-flags": "",
+	"single-instance": true,
+	"chromium-args": "--ignore-certificate-errors",
+	"dependencies": {
+		"nw-flash-trust": "0.3.0"
+	}
+}

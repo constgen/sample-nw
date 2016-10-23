@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		html, body
+		{
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+
+		iframe
+		{
+			display: block;
+			width: 100%;
+			height: 100%;
+			border: none;
+		}
+	</style>
+</head>
+<body>
+	<iframe nwfaketop nwdisable></iframe>
+
+	<!--<script src="../../cross-channel/node_modules/systemjs/dist/system.src.js"></script>
+	
+	<script>
+		var title = 'NW root'
+
+		System['import']('../../cross-channel/dist/cross-channel.js')
+			.then(function(CrossChannel){
+				window.CrossChannel = CrossChannel
+			})
+			['catch'](function(err){
+				console.error(err)
+			}).then(listen)
+	
+		function listen(){
+			window.mainChannel = new CrossChannel('green')
+			mainChannel.on('message',handleMessageEventfunction )
+		}
+		function handleMessageEventfunction(e){
+			console.log(title, e)
+		}
+	</script>-->
+</body>
+</html>

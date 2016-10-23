@@ -1,0 +1,19 @@
+{
+	"name": "nw-sample",
+	"main": "",
+	"private": true,
+	"version": "1.0.0",
+	"description": "",
+	"author": "",
+    "scripts": {
+		"build": "grunt build",
+		"start": "cd nw/0.11.6/win32 && nw.exe ../../../src",
+		"postinstall": "cd src && npm install"
+    },
+	"dependencies": {
+		"grunt": "1.0.1",
+		"grunt-contrib-clean": "1.0.0",
+		"grunt-node-webkit-builder": "1.0.2",
+		"grunt-contrib-copy": "1.0.0"
+	}
+}
